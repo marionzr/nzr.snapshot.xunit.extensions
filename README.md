@@ -1,7 +1,8 @@
 
 # Nzr.Snapshot.Xunit.Extensions
 
-[![License](https://img.shields.io/github/license/marionzr/nzr.snapshot.xunit.extensions)](https://github.com/marionzr/nzr.snapshot.xunit.extensions/blob/main/docs/LICENSE.txt)
+![GitHub last commit](https://img.shields.io/github/last-commit/marionzr/Nzr.Snapshot.Xunit.Extensions)
+![NuGet Downloads](https://img.shields.io/nuget/dt/Nzr.Snapshot.Xunit.Extensions)
 
 `Nzr.Snapshot.Xunit.Extensions` is a simple extension library for integrating [Snapshooter](https://github.com/TakeScoop/Snapshooter) with [xUnit](https://xunit.net/). It enables custom folder organization for snapshots based on test attributes and allows for flexible snapshot management in unit tests.
 
@@ -83,7 +84,7 @@ You can optionally specify whether to exclude the class name from the snapshot f
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](docs/LICENSE.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## Contributing
 
