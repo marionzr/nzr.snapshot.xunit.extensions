@@ -2,7 +2,7 @@
 # Nzr.Snapshot.Xunit.Extensions
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/marionzr/Nzr.Snapshot.Xunit.Extensions)
-![NuGet Downloads](https://img.shields.io/nuget/dt/Nzr.Snapshot.Xunit.Extensions)
+![NuGet Downloads](https://img.shields.io/nuget/dt/nzr.snapshot.xunit.extensions)
 
 `Nzr.Snapshot.Xunit.Extensions` is a simple extension library for integrating [Snapshooter](https://github.com/TakeScoop/Snapshooter) with [xUnit](https://xunit.net/). It enables custom folder organization for snapshots based on test attributes and allows for flexible snapshot management in unit tests.
 
