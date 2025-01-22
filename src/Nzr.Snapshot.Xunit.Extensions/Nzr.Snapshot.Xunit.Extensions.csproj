@@ -13,7 +13,7 @@
     <Authors>marionzr</Authors>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>nzr.png</PackageIcon>
     <PackageIconUrl>https://github.com/marionzr/nzr.snapshot.xunit.extensions/raw/main/src/Nzr.Snapshot.Xunit.Extensions/icon.png</PackageIconUrl>
   </PropertyGroup>
@@ -31,7 +31,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </Content>
-    <None Include="..\..\LICENSE.txt">
+    <None Include="..\..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

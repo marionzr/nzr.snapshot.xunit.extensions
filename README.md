@@ -1,8 +1,11 @@
 
 # Nzr.Snapshot.Xunit.Extensions
 
-![GitHub last commit](https://img.shields.io/github/last-commit/marionzr/Nzr.Snapshot.Xunit.Extensions)
-![NuGet Downloads](https://img.shields.io/nuget/dt/nzr.snapshot.xunit.extensions)
+![NuGet Version](https://img.shields.io/nuget/v/Nzr.Snapshot.Xunit.Extensions?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FNzr.ToolBox.Core.Single)
+![NuGet Downloads](https://img.shields.io/nuget/dt/Nzr.Snapshot.Xunit.Extensions?logoColor=red)
+![GitHub last commit](https://img.shields.io/github/last-commit/marionzr/nzr.snapshot.xunit.extensions)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/marionzr/nzr.snapshot.xunit.extensions/ci.yaml)
+![GitHub License](https://img.shields.io/github/license/marionzr/nzr.snapshot.xunit.extensions)
 
 `Nzr.Snapshot.Xunit.Extensions` is a simple extension library for integrating [Snapshooter](https://github.com/TakeScoop/Snapshooter) with [xUnit](https://xunit.net/). It enables custom folder organization for snapshots based on test attributes and allows for flexible snapshot management in unit tests.
 
@@ -16,11 +19,13 @@
 
 You can install `Nzr.Snapshot.Xunit.Extensions` via NuGet Package Manager:
 
+```
+Install-Package Nzr.Snapshot.Xunit.Extensions
+```
+
 ```bash
 dotnet add package Nzr.Snapshot.Xunit.Extensions
 ```
-
-Or, via the [NuGet package page](https://www.nuget.org/packages/Nzr.Snapshot.Xunit.Extensions).
 
 ## Usage
 
@@ -82,10 +87,6 @@ You can optionally specify whether to exclude the class name from the snapshot f
 [SnapshotFolder("FolderName", excludeClassName: true)]
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
-
 ## Contributing
 
 We welcome contributions! If you'd like to contribute to this project, please fork the repository and submit a pull request. Please ensure that your code passes all tests and includes relevant documentation for new features or changes.
@@ -108,4 +109,15 @@ We welcome contributions! If you'd like to contribute to this project, please fo
 
 ---
 
-For more information on how to use this project, please refer to the [documentation](https://github.com/marionzr/nzr.snapshot.xunit.extensions).
+## License
+Nzr.Snapshot.Xunit.Extensions is licensed under the Apache License, Version 2.0, January 2004. You may obtain a copy of the License at:
+
+```
+http://www.apache.org/licenses/LICENSE-2.0
+```
+
+# Disclaimer
+
+This project is provided "as-is" without any warranty or guarantee of its functionality. The author assumes no responsibility or liability for any issues, damages, or consequences arising from the use of this code, whether direct or indirect. By using this project, you agree that you are solely responsible for any risks associated with its use, and you will not hold the author accountable for any loss, injury, or legal ramifications that may occur.
+
+Please ensure that you understand the code and test it thoroughly before using it in any production environment.
